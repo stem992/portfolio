@@ -21,6 +21,11 @@ h2 {
     text-transform: uppercase;
     font-size: 20px;
 }
+
+h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
 a,
 .btn {
   transition: all 300ms ease;
@@ -267,6 +272,10 @@ section {
     text-align: justify;
   }
 
+  .projects {
+    margin-top:600px;
+  }
+
   .contenitore {
     display: flex;
     flex-wrap: wrap;
@@ -372,6 +381,9 @@ section {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.project-item a {
+    font-size: 12px;
+}
 
 .project-title {
     display: flex;
