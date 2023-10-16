@@ -38,8 +38,8 @@
       margin: 0 5%;
     }
     .section__pic-container {
-      width: 275px;
-      height: 275px;
+      width: 325px;
+      height: 325px;
       margin: 0 auto 2rem;
     }
     .about-containers {
@@ -87,7 +87,8 @@
     }
     .section__pic-container {
       width: auto;
-      height: 46vw;
+      width: 230px;
+      height: 230px;
       justify-content: center;
     }
     .section__text__p2 {
@@ -99,6 +100,13 @@
     .text-container {
       text-align: justify;
     }
-    
+    .project-title {
+
+      font-size: 12px;
+  }
+
+  .project-item a{
+    font-size: 10px;
+  }
   }
   
