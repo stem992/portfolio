@@ -108,5 +108,10 @@
   .project-item a{
     font-size: 10px;
   }
+  .work-info-contents {
+    text-align: justify;
+    font-size: 12px;
+
+  }
   }
   
