@@ -1,12 +1,13 @@
 /* MAX-WIDTH 1400 */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 5000px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
     }
 
     #contact,
-    #projects {
+    #projects, 
+    #works {
       height: fit-content;
     }
  
@@ -27,6 +28,10 @@
       display: block;
     }
     
+    #works {
+      margin-bottom:10px;
+    }
+
     .arrow {
       display: none;
     }
