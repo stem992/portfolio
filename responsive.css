@@ -1,5 +1,5 @@
-/* MAX-WIDTH 1400 */
-@media screen and (max-width: 5000px) {
+/* MAX-WIDTH 2700 */
+@media screen and (max-width: 2700px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -11,6 +11,27 @@
       height: fit-content;
     }
  
+    .projects {
+      margin-top:1px;
+    }
+
+    .input-field {
+      max-width: 100%; 
+   } 
+
+    section {
+      height: fit-content;
+    }
+
+    .contacts-form {
+        width: 80%;
+    }
+
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+
 }
 
 /* MAX-WIDTH 1200 */
@@ -21,6 +42,23 @@
 
     #hamburger-nav {
       display: flex;
+    }
+
+    .input-field {
+      max-width: 100%; 
+   } 
+
+    section {
+      height: fit-content;
+    }
+
+    .contacts-form {
+        width: 80%;
+    }
+
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
     }
 
     #profile,
@@ -44,6 +82,10 @@
       width: 280px;
       height: 280px;
       margin: 0 auto 2rem;
+    }
+
+    .projects {
+      margin-top:1px;
     }
 }
 
