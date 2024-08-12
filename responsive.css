@@ -87,6 +87,10 @@
     .projects {
       margin-top:1px;
     }
+
+    .experience {
+      font-size: 15px;
+    }
 }
 
 /* MAX-WIDTH 675 */
@@ -131,6 +135,10 @@
 
     .section__text__p2 {
       font-size: 1.25rem;
+    }
+
+    .experience {
+      font-size: 12px;
     }
 
     .title {
