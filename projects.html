@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <title>Projects</title>
+    <link rel="icon" href="assets/icona.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Work+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const infoToggles = document.querySelectorAll('.info-toggle');
+            const projectItems = document.querySelectorAll('.project-item');
+    
+            infoToggles.forEach((toggle, index) => {
+                toggle.addEventListener('click', () => {
+                    projectItems[index].classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+
+    <section class="projects" id="projects">
+        <a href="index.html" style="text-decoration: none; margin-right: 10px;">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="title" style="display: inline;">Projects</h1>
+        
+        
+        <div class="container">
+            <div class="work-item">
+                <br>
+                <div class="info">
+                    <h2> university projects  </h2><br>
+                </div>                    
+
+                <div class="work-infos">
+                    <div class="work-infos-content">
+                        <ul class="project-list">
+                            
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>TECNOLOGIE WEB</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p>Il progetto "STP Electronics" è un sito web di e-commerce specializzato nella vendita di telefoni cellulari di alta gamma situato a Torino, Italia. Gli utenti devono registrarsi per accedere al sito, dove trovano una homepage con una breve presentazione, i brand trattati e i prodotti in vetrina. Possono aggiungere prodotti al carrello e successivamente procedere al pagamento. Il sito utilizza sessioni per il login e interroga un database per l'autenticazione. La registrazione richiede nome, cognome, città, email e password, con validazione dei dati. Sono presenti anche funzionalità di sicurezza, come la cifratura delle password e misure anti-SQL injection. Il design è reso responsive con media query CSS.
+                                    </p>
+                                    <a 
+                                    href="pdf/tweb.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/tweb-webdev"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+                            
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>DATABASE</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/db.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/database1920"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>LINGUAGGI FORMALI E TRADUTTORI</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/lft.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/lft1920"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>SISTEMI OPERATIVI</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/so.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/so2122"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+                            
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>ALGORITMI E STRUTTURE DATI 2020/2021</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/algo1.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/asd2021"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>ALGORITMI E STRUTTURE DATI 2021/2022</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/algo2.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/asd2122"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>SVILUPPO DELLE APPLICAZIONI SOFTWARE</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p></p>
+                                    <a 
+                                    href="pdf/sas.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="pdf-link"
+                                >
+                                    Scarica il PDF
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/sas2122"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>PROGETTO DI STAGE (GESTIONE DI UN DATABASE INDEXEDDB TRAMITE REACT)</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p>Progetto effettuato durante il periodo di stage presso il Dipartimento di Informatica.
+                                        <br><br>
+                                        <strong>Obiettivi formativi: </strong>
+                                        <br>
+                                        Apprendimento del framework React per la realizzazione di applicazioni Web.<br>
+                                        
+                                        Studio del database locale IndexedDB e interazione con esso tramite javascript/typescript.
+                                        <br><br>
+                                        <strong>Finalità e attività: </strong><br>
+                                        
+                                        Realizzazione di un front-end basato React per la consultazione, la manutenzione e l'aggiornamento di un database IndexedDB nell'ambito di un'applicazione web di natura documentale.</p>
+    
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/react-indexedDb"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+
+                <br><br>
+
+
+                <div class="work-infos">
+                    <h2> personal projects   </h2><br>
+                    <div class="work-infos-content">
+                        <ul class="project-list">
+                            
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>POMODORO TIMER</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p>Pomodoro Timer è un'applicazione basata su React che offre una soluzione efficace per gestire il tuo tempo in modo più produttivo utilizzando la tecnica Pomodoro. Questo timer suddivide il tuo lavoro in intervalli prestabiliti (di solito 25 minuti) seguiti da brevi pause, migliorando la tua concentrazione e la tua produttività.
+                                </p>
+
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/react-pomodoro"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+
+                                <a
+                                    href="https://fastidious-flan-edfaf6.netlify.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                            >
+                                <i class="fa-solid fa-play"></i>Prova
+                            </a>
+                            </li>
+
+                            <li class="project-item">
+                                <div class="project-title">
+                                    <span>LIVE CHAT</span>
+
+                                    <span class="info-toggle">Info</span>
+                                </div>
+                                <div class="project-description">
+                                    <p>
+                                        Questo è un semplice esempio di un'applicazione di chat in tempo reale con un'interfaccia utente minimalista.
+                                        <br><br>Le domande con risposta (per ora) sono: <br>(ciao) - (come ti chiami?)
+                                        - (cosa fai oggi?) - (che tempo fa?) - (mi piace chattare con te) <br>
+                                </p>
+
+                                </div>
+                                <a
+                                    href="https://github.com/stem992/chat-realtime"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                                >
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+
+                                <a
+                                    href="https://tangerine-boba-27126a.netlify.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="github-link"
+                            >
+                                <i class="fa-solid fa-play"></i>Prova
+                            </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

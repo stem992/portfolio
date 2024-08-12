@@ -195,7 +195,12 @@ section {
 }
   
 .section__text__p2 {
-  font-size: 17px;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.section__text__p23 {
+  font-size: 20px;
   margin-bottom: 1rem;
 }
   
