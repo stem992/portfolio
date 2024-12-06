@@ -531,14 +531,6 @@ footer a {
 
 
 
-body {
-  font-family: 'Arial', sans-serif;
-  background: #f0f2f5;
-  color: #333;
-  line-height: 1.4;
-  margin: 0;
-  padding: 0;
-}
 
 .info {
   text-align: center;
@@ -549,7 +541,7 @@ body {
 
 h4 {
   margin-left: 20px;
-  font-size: 1.3em;
+  font-size: 1em;
   color: #333;
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
@@ -569,7 +561,7 @@ h4 {
   border-radius: 5px;
   margin: 5px;
   transition: transform 0.3s;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .skill:hover {
@@ -599,7 +591,7 @@ h4 {
 .card h4 {
   color: #007bff;
   margin-bottom: 8px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card p {
