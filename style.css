@@ -492,45 +492,26 @@ footer a {
   padding: 5px 27px;
 }
 
-
-
 /* ====================== ESPERIENZA ====================== */
 
 .cliente-section {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #f0f9ff, #eaf4ff);
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  max-width: 800px;
   color: #333;
-}
-
-.cliente-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #0056b3;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  border-bottom: 2px solid #0056b3;
-  padding-bottom: 5px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: linear-gradient(to right, #f9f9f9, #eef2f3);
 }
 
 .experience-list {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 .experience-item {
-  display: block;
-  margin-bottom: 20px;
-  font-size: 1em;
-  line-height: 1.8;
-  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
 }
 
 .highlight {
@@ -539,78 +520,89 @@ footer a {
 }
 
 .tools-list {
-  list-style-type: none;
-  margin: 10px 0 0 20px;
-  padding: 0;
-  color: #444;
-}
-
-.tools-list li {
-  margin-bottom: 5px;
-  position: relative;
+  list-style-type: disc;
   padding-left: 20px;
 }
 
-.tools-list li:before {
-  content: "→";
-  position: absolute;
-  left: 0;
-  font-size: 1em;
-  color: #0056b3;
-  font-weight: bold;
-}
-
-
-.current-experience {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #f5f7fa, #e4ebf5);
-  border-radius: 10px;
-  padding: 20px 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  margin: 20px auto;
-  max-width: 800px;
-  color: #333;
-}
-
-.experience-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 5px;
-}
-
-.experience-details {
-  line-height: 1.8;
-}
-
-.role {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.dates {
-  font-size: 1em;
-  color: #007bff;
-  font-weight: normal;
-}
-
-.location {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  font-size: 1em;
+.tools-list li {
+  margin-bottom: 8px;
   color: #555;
 }
 
-.location-icon {
-  margin-right: 10px;
-  font-size: 1.2em;
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+h4 {
+  margin-left: 20px;
+  font-size: 1.3em;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.contenitore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.skill {
+  background: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 5px;
+  transition: transform 0.3s;
+  font-size: 0.9em;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card .container {
+  padding: 20px;
+  text-align: center;
+}
+
+.card h4 {
   color: #007bff;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.9em;
 }
